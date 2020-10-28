@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>The little Everest</title>
+		<link href="CSS/Principal.css" rel="stylesheet" type="text/css">
+		<link rel="icon" href="../Images/logo.png" type="image/png">
+	</head>
+
+    <body>
+			<img src="../Images/test.png"  alt="Background">
+    <h1> Bienvenue sur notre site</h1>
+		</body>
+</html>
