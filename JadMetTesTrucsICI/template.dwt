@@ -1,0 +1,43 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<!-- TemplateBeginEditable name="doctitle" -->
+<title>Projet_Integrateur</title>
+<!-- TemplateEndEditable -->
+<!-- TemplateBeginEditable name="head" -->
+<!-- TemplateEndEditable --><link rel="stylesheet" type="text/css" href="../CSS/CSS_template.css"/><!--[if lte IE 7]>
+<style>
+.content { margin-right: -1px; } /* cette marge négative de 1px peut être placée sur n'importe quelle colonne de cette mise en page, avec le même effet correcteur. */
+ul.nav a { zoom: 1; }  /* la propriété de zoom donne à IE le déclencheur hasLayout requis pour corriger les espaces blancs supplémentaires entre les liens */
+</style>
+<![endif]--></head>
+
+<body>
+
+<div class="topnav">
+  <a href="Accueil.html">Accueil</a>
+  <a href="Réservation.html">Réservation</a>
+  <a href="Nos_Suites.html">Nos Suites</a>
+  <a href="Programmes_Offerts.html">Programmes Offerts</a>
+  <a href="À_proximité.html">À proximité</a>
+</div>
+
+    <p></p>
+    <!-- end .sidebar1 --></div>
+    
+<!-- TemplateBeginEditable name="content" -->
+<div class="content">
+    <h1></h1> 
+  <!-- end .content --></div>
+    
+<!-- TemplateEndEditable -->    
+    
+  <div class="footer">
+  
+  <p class="Mail"><a href="mailto:thepublishers@">Un soucis de dernière minute? Contactez nous :)</a></p>
+
+  <!-- end .footer --></div>
+</div>
+</body>
+</html>
