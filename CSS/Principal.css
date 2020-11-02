@@ -1,14 +1,17 @@
 body{
   background: white;
 	left:0px;
-	text-align:center;
-  margin: 0px 0px 0px 0px;
+  padding: 0px 0px 0px 0px;
+  margin:0px 0px 0px 0px;
 }
 header{
-  margin: 2% 2% 2% 2%;
+  margin: 0% 1% 1% 1%;
   position: fixed;
   color: white;
   background: black;
+  min-width: 98%;
+  max-width: 98%;
+  text-align: center;
 }
 .nav li{
 	display: inline-block;
