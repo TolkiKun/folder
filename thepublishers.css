@@ -1,0 +1,15 @@
+.copyright
+{
+	bottom:0;
+	font-size:9px;
+	font-family: "MS Serif", "New York", serif;
+	color:black;
+	text-align:right;
+	margin-right:15px;
+	margin-bottom:8px;
+  text-decoration: none;
+}
+.copyright a{
+  color: black;
+  text-decoration: none;
+}
