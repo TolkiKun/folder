@@ -8,6 +8,7 @@ body{
   right:0px;
   bottom:0px;
 }
+
 header{
   overflow: hidden;
   z-index: 50;
@@ -52,14 +53,14 @@ footer a{
 .nav-icon {
   margin: 1em;
   width: 40px;
-  z-index: 100;
+  z-index: 150;
   position: absolute;
 }
 
 .nav-icon:after,
 .nav-icon:before,
 .nav-icon div {
-  background-color: black;
+  background-color: purple;
   border-radius: 3px;
   content: '';
   display: block;
@@ -122,9 +123,10 @@ footer a{
 
 .overlay .closebtn {
   position: absolute;
-  top: 20px;
-  right: 45px;
+  top: 2.5%;
+  left: 1%;
   font-size: 60px;
+  color: yellow;
 
 }
 

@@ -12,8 +12,9 @@
 </head>
 	<body>
 
+ <!-- 	<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a> -->
+
 		<div id="myNav" class="overlay">
-		  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
 		  <div class="overlay-content">
 		    <a href="#">About</a>
 		    <a href="#">Services</a>
@@ -37,13 +38,25 @@
 
 
 
-		<nav onclick="openNav()">
+		<nav onclick="openNav()" >
 		<div class="nav-icon">
   	<div></div>
 		</div>
-	</nav>
+		</nav>
 
 
+
+
+		<script>
+		function test() {
+		  var x = document.getElementById("multifunction");
+		  if (x.style.display === "none") {
+		    x.style.display = "block";
+		  } else {
+		    x.style.display = "none";
+		  }
+		}
+		</script>
 
 
 
