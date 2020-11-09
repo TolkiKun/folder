@@ -1,15 +1,76 @@
-.copyright
-{
-	bottom:0;
-	font-size:9px;
-	font-family: "MS Serif", "New York", serif;
-	color:black;
-	text-align:right;
-	margin-right:15px;
-	margin-bottom:8px;
-  text-decoration: none;
+body{
+  border: solid black 10px;
+  padding-bottom: 0px;
+  position: absolute;
+  top: 0px;
+  left:0px;
+  right:0px;
+  bottom:0px;
 }
-.copyright a{
+.trigger-menu{
+
+}
+.nav-icon {
+  margin: 1em;
+  width: 40px;
+  z-index: 100;
+  position: absolute;
+}
+
+.nav-icon:after,
+.nav-icon:before,
+.nav-icon div {
+  background-color: black;
+  border-radius: 3px;
+  content: '';
+  display: block;
+  height: 5px;
+  margin: 7px 0;
+  transition: all .2s ease-in-out;
+}
+.nav-icon:hover:before {
+  transform: translateY(12px) rotate(135deg);
+}
+
+.nav-icon:hover:after {
+  transform: translateY(-12px) rotate(-135deg);
+}
+
+.nav-icon:hover div {
+  transform: scale(0);
+}
+
+header{
+  overflow: hidden;
+  z-index: 50;
+  text-align: center;
+}
+header h1{
+  font-family: fantasy;
+  color: rgba(0, 0, 0, 1);
+  overflow: hidden;
+  position: static;
+}
+header h1 a{
+    padding-left: 1.5em;
+}
+
+footer {
+	bottom:0;
+	font-size:11px;
+	font-family: fantasy;
+	color:black;
+  text-decoration: none;
+  border: solid black;
+  position: absolute;
+  background-color: white;
+  right: 0px;
+  bottom: 0px;
+  padding: 3px 3px 3px 3px;
+  z-index: 100;
+
+}
+footer a{
   color: black;
   text-decoration: none;
 }
