@@ -3,7 +3,7 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <!-- TemplateBeginEditable name="doctitle" -->
-<title>MODIFIER</title>
+<title>ThePublishers</title>
 <!-- TemplateEndEditable -->
 <!-- TemplateBeginEditable name="head" -->
 <!-- TemplateEndEditable -->
@@ -24,7 +24,7 @@
 		</div>
 
 
-		<script>
+		<!-- <script>
 		function openNav() {
 		  document.getElementById("myNav").style.width = "100%";
 		}
@@ -32,13 +32,22 @@
 		function closeNav() {
 		  document.getElementById("myNav").style.width = "0%";
 		}
-		</script>
+	</script> -->
 
 
+	<script>
+	function openNav() {
+		var x = document.getElementById("myNav");
+		if (x.style.width === "0%") {
+			document.getElementById("myNav").style.width = "100%";
+		} else {
+			x.style.width = "0%"
+		}
+	}
+</script>
 
 
-
-		<nav onclick="openNav()" >
+		<nav onclick="openNav()">
 		<div class="nav-icon">
   	<div></div>
 		</div>
@@ -47,7 +56,7 @@
 
 
 
-		<script>
+		<!-- <script>
 		function test() {
 		  var x = document.getElementById("multifunction");
 		  if (x.style.display === "none") {
@@ -56,7 +65,7 @@
 		    x.style.display = "none";
 		  }
 		}
-		</script>
+		</script> -->
 
 
 
