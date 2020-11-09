@@ -7,6 +7,10 @@ body{
   right:0px;
   bottom:0px;
 }
+
+
+
+
 .overlay {
   height: 100%;
   width: 0;
@@ -54,7 +58,16 @@ body{
   font-size: 40px;
   top: 15px;
   right: 35px;
-  }
+}
+
+
+
+
+
+
+
+
+
 }
 .nav-icon {
   margin: 1em;
