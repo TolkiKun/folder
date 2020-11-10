@@ -57,10 +57,10 @@ footer a{
   position: absolute;
 }
 
-.nav-icon:after,
-.nav-icon:before,
+.nav-icon::after,
+.nav-icon::before,
 .nav-icon div {
-  background-color: purple;
+  background-color: black;
   border-radius: 3px;
   content: '';
   display: block;
